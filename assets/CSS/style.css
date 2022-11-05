@@ -6,6 +6,7 @@ body {
   font-family: Arial;
 }
 
+/*header, menu opções*/
 header {
   display: flex;
   justify-content: space-between;
@@ -17,61 +18,31 @@ header {
   border-top: 4px solid black;
 }
 
+/*itens do header*/
 
 
-.searchBox {
-  display: flex;
-  align-items: center;
-}
-
-.destaque {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-}
-
-.title {
-  margin-top: 50px;
-  margin-left: 70px;
-  position: absolute;
-  z-index: 20;
-}
-
-#barroco,
-#gotica {
-  width: 100%;
-  height: 400px;
-}
-
-.infosIcons {
+#txtSearch {
+  float: left;
   background-color: white;
-  border-bottom: 4px solid black;
-  border-top: 4px solid black;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  padding-left: 5px;
+  font-size: 18px;
+  border: 2px solid;
+  height: 40px;
+  width: 450px;
+  border-radius: 5px 0 0 5px;
 }
 
-.icones {
-  margin: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-h2 {
-  margin-left: 10px;
-  font-size: 16px;
-  color: black;
-}
-
+/*opções do header*/
 a {
   cursor: pointer;
   text-decoration: none;
   font-size: 20px;
   color: black;
   margin: 10px;
+}
+
+#search {
+  max-width: 25px;
 }
 
 button {
@@ -84,28 +55,6 @@ button {
   border-radius: 0 5px 5px 0;
 }
 
-#txtSearch {
-  float: left;
-  background-color: white;
-  padding-left: 5px;
-  font-size: 18px;
-  border: 2px solid;
-  height: 40px;
-  width: 450px;
-  border-radius: 5px 0 0 5px;
-
-}
-
-#titulo {
-  font-size: 30px;
-  margin: 0;
-  color: white;
-}
-
-#search {
-  max-width: 25px;
-}
-
 #menu {
   margin-left: 5%;
 }
@@ -115,7 +64,92 @@ button {
   margin: 15px;
 }
 
+/*caixa de pesquisa*/
+.searchBox {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+/*destaque do site*/
+.destaque {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+/*imagens de destaque*/
+#barroco,
+#gotica {
+  width: 100%;
+  height: 400px;
+}
+
+/*div do titulo em destaque*/
+.title {
+  margin-top: 50px;
+  margin-left: 70px;
+  position: absolute;
+  z-index: 20;
+}
+
+/*div de informações*/
+.infosIcons {
+  background-color: white;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 80px;
+}
+
+/*div dos icons e textos*/
+.icones {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/*icones*/
 #icon {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
+}
+
+/*texto dos icones*/
+#txtIcon {
+  margin-left: 10px;
+  color: black;
+}
+
+.subInfos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.styleArt {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border: 5px solid black;
+}
+
+#art {
+  color: black;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+footer {
+  color: black;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
 }
