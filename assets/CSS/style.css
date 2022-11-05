@@ -1,0 +1,121 @@
+body {
+  background-color: #cecece;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+}
+
+
+
+.searchBox {
+  display: flex;
+  align-items: center;
+}
+
+.destaque {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  margin-top: 50px;
+  margin-left: 70px;
+  position: absolute;
+  z-index: 20;
+}
+
+#barroco,
+#gotica {
+  width: 100%;
+  height: 400px;
+}
+
+.infosIcons {
+  background-color: white;
+  border-bottom: 4px solid black;
+  border-top: 4px solid black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.icones {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h2 {
+  margin-left: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  margin: 10px;
+}
+
+button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 2px solid;
+  height: 47px;
+  border-radius: 0 5px 5px 0;
+}
+
+#txtSearch {
+  float: left;
+  background-color: white;
+  padding-left: 5px;
+  font-size: 18px;
+  border: 2px solid;
+  height: 40px;
+  width: 450px;
+  border-radius: 5px 0 0 5px;
+
+}
+
+#titulo {
+  font-size: 30px;
+  margin: 0;
+  color: white;
+}
+
+#search {
+  max-width: 25px;
+}
+
+#menu {
+  margin-left: 5%;
+}
+
+#logo {
+  max-width: 70px;
+  margin: 15px;
+}
+
+#icon {
+  width: 35px;
+  height: 35px;
+}
