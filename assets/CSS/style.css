@@ -133,7 +133,8 @@ button {
 }
 
 .styleArt {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 250px;
@@ -142,14 +143,53 @@ button {
 }
 
 #art {
+  font-size: 25px;
+  cursor: pointer;
   color: black;
-  border: 2px solid black;
-  padding: 15px;
+  border: none;
+  background-color: #cecece;
 }
 
+#art:hover {
+  color: white;
+  border: 2px solid;
+  transition: 0.1s;
+  border-radius: 0;
+}
+
+/* .divFooter {
+  border: 2px solid;
+} */
+
 footer {
+  margin-top: 50px;
+  border-top: 2px solid;
+  height: 250px;
+  background-color: white;
   color: black;
-  font-style: italic;
   display: flex;
+}
+
+.infoFooter {
+  width: 100%;
+  height: 275px;
+  display: flex;
+  place-content: center space-around;
+}
+
+h3 {
+  border-bottom: 2px solid black;
+  padding: 3px;
+}
+
+.divFooter {
+  font-style: italic;
+  font-size: 15px;
+  display: flex;
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  color: black;
   justify-content: center;
+  align-items: flex-end;
 }
