@@ -1,0 +1,81 @@
+body {
+  font-family: Arial;
+  background-color: #cecece;
+  background-image: url('/images/barroca.jpeg');
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.divLogin {
+  border-radius: 5px;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* #titleLogin {} */
+
+
+input {
+  text-align: center;
+  outline: none;
+}
+
+img {
+  margin-top: 15px;
+  width: 100px;
+}
+
+#buttonLogin {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  width: 80px;
+  height: 40px;
+}
+
+#buttonLogin:hover {
+  background-color: rgb(4, 97, 4);
+  transition: 0.5s;
+}
+
+input {
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+.divInput,
+.divInput1 {
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+
+
+#user,
+#password {
+  width: 200px;
+}
