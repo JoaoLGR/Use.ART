@@ -7,7 +7,6 @@
   <link rel="icon" href="/images/logo-branco1.jpeg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/assets/CSS/style.css">
-  <link rel="stylesheet" href="/assets/JS/script.js">
   <title>Loja USE_ART</title>
 </head>
 
@@ -28,7 +27,6 @@
   </header>
 
   <main>
-
     <div class="destaque">
       <div class="title">
         <h1 id="titulo">TUDO SOBRE<br>MODA E ARTE</h1>
@@ -55,48 +53,43 @@
         <h6 id="txtIcon">ENTREGAS EM TODO BRASIL</h6>
       </div>
     </div>
-
-    <div class="slideShow">
-      <div class="slides">
-        <input class="input" type="radio" name="slide" id="slide1">
-        <input class="input" type="radio" name="slide" id="slide2">
-        <input class="input" type="radio" name="slide" id="slide3">
-        <input class="input" type="radio" name="slide" id="slide4">
-        <input class="input" type="radio" name="slide" id="slide5">
-      </div>
-      <div class="slideCamisa">
-        <img src="/images/barroca.jpeg" alt="">
-      </div>
-      <div class="slideCamisa">
-        <img src="/images/barroca.jpeg" alt="">
-      </div>
-      <div class="slideCamisa">
-        <img src="/images/barroca.jpeg" alt="">
-      </div>
-      <div class="slideCamisa">
-        <img src="/images/barroca.jpeg" alt="">
-      </div>
-      <div class="slideCamisa">
-        <img src="/images/barroca.jpeg" alt="">
-      </div>
-    </div>
-    <div class="navigation">
-      <label for="slide1"></label>
-      <label for="slide2"></label>
-      <label for="slide3"></label>
-      <label for="slide4"></label>
-      <label for="slide5"></label>
-    </div>
-
-
   </main>
+
+  <div class="carousel-wrapper">
+    <span id="item-1"></span>
+    <span id="item-2"></span>
+    <span id="item-3"></span>
+    <span id="item-4"></span>
+
+    <div class="carousel-item item-1">
+      <a href="#item-4" class="arrow-prev arrow"></a>
+      <a href="#item-2" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carousel-item item-2">
+      <a href="#item-1" class="arrow-prev arrow"></a>
+      <a href="#item-3" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carousel-item item-3">
+      <a href="#item-2" class="arrow-prev arrow"></a>
+      <a href="#item-4" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carousel-item item-4">
+      <a href="#item-3" class="arrow-prev arrow"></a>
+      <a href="#item-1" class="arrow-next arrow"></a>
+    </div>
+
+  </div>
 
   <footer>
     <div class="infoFooter">
       <div class="sobreLoja">
         <h3>SOBRE A LOJA</h3>
-        <p>Lorem ipsum, dolor sit amet <br> consectetur adipisicing elit. <br>
-          Vitae recusandae commodi rem <br> facilis laborum distinctio
+        <p>Somos apaixonados por arte. Com isso, criamos nossa loja <br> com intuito de mostrar essas artes lindas,
+          através <br>
+          das nossas camisetas. <br> São duas linhas do estilo Barroco e Gótico maravilhosas.
         </p>
       </div>
       <div class="institucional">
@@ -109,15 +102,15 @@
         <h3>CONTATO</h3>
         <div id="iconesContato">
           <img id="contatoIcon" src="/icons/telefone.png" alt="telefone">
-          <p id="pIcon">Telefone: (34) 98765-4321</p>
+          <p>Telefone: (34) 98765-4321</p>
         </div>
         <div id="iconesContato">
           <img id="contatoIcon" src="/icons/whatsapp.png" alt="whatsapp">
-          <p id="pIcon">Whatsapp: (34) 99988-7766</p>
+          <p>Whatsapp: (34) 99988-7766</p>
         </div>
         <div id="iconesContato">
           <img id="contatoIcon" src="/icons/gmail.png" alt="gmail">
-          <p id="pIcon">use_art@gmail.com</p>
+          <p>use_art@gmail.com
         </div>
       </div>
       <div class="social">
@@ -132,7 +125,7 @@
         </div>
         <div id="iconSocial">
           <img id="socialIcon" src="/icons/twitter.png" alt="twitter">
-          @useartloja34
+          <p>@useartloja34</p>
         </div>
       </div>
     </div>
